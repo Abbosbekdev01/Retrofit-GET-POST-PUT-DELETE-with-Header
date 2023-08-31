@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_shit_back"
+    android:layout_margin="@dimen/_5sdp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:hint="Title"
+        android:maxEms="20"
+        android:minEms="10"
+        android:textSize="@dimen/_14ssp" />
+
+    <EditText
+        android:id="@+id/edit_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:hint="Body"
+        android:maxEms="20"
+        android:minEms="10"
+        android:textSize="@dimen/_14ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:width="@dimen/_2sdp"
+            android:backgroundTint="#950404"
+            android:padding="@dimen/_5sdp"
+            android:text="Close!"
+            android:textSize="@dimen/_14ssp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:width="@dimen/_2sdp"
+            android:backgroundTint="#2196F3"
+            android:padding="@dimen/_5sdp"
+            android:text="Save!"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+</LinearLayout>
